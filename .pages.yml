@@ -9,7 +9,7 @@
       "fields": [
         {
           "name": "brand",
-          "label": "Brand",
+          "label": "Site name",
           "type": "string"
         },
         {
@@ -24,27 +24,27 @@
         },
         {
           "name": "page_title",
-          "label": "Page Title",
+          "label": "Browser tab title",
           "type": "string"
         },
         {
           "name": "description",
-          "label": "Description",
+          "label": "Search description",
           "type": "text"
         },
         {
           "name": "eyebrow",
-          "label": "Eyebrow",
+          "label": "Affiliation line",
           "type": "string"
         },
         {
           "name": "headline",
-          "label": "Headline",
+          "label": "Headline \u2014 first line",
           "type": "string"
         },
         {
           "name": "headline_emphasis",
-          "label": "Headline Emphasis",
+          "label": "Headline \u2014 italic second line",
           "type": "string"
         },
         {
@@ -54,17 +54,17 @@
         },
         {
           "name": "bio",
-          "label": "Bio",
+          "label": "Short bio",
           "type": "text"
         },
         {
           "name": "current_note",
-          "label": "Current Note",
+          "label": "Currently \u2014 margin note",
           "type": "text"
         },
         {
           "name": "previous_note",
-          "label": "Previous Note",
+          "label": "Previously \u2014 margin note",
           "type": "text"
         },
         {
@@ -74,13 +74,13 @@
         },
         {
           "name": "about_intro",
-          "label": "About Intro",
+          "label": "About \u2014 opening line",
           "type": "text"
         },
         {
           "name": "about_paragraphs",
-          "label": "About Paragraphs",
-          "type": "string",
+          "label": "About \u2014 paragraphs",
+          "type": "text",
           "list": true
         },
         {
@@ -117,7 +117,12 @@
           "name": "items",
           "label": "Projects",
           "type": "object",
-          "list": true,
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{name}"
+            }
+          },
           "fields": [
             {
               "name": "id",
@@ -219,7 +224,12 @@
           "name": "items",
           "label": "Experience",
           "type": "object",
-          "list": true,
+          "list": {
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{organization}"
+            }
+          },
           "fields": [
             {
               "name": "date",
@@ -280,7 +290,7 @@
         },
         {
           "name": "footer_interests",
-          "label": "Footer Interests",
+          "label": "Footer interests",
           "type": "string"
         }
       ]
