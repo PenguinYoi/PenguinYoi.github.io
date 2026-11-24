@@ -1,9 +1,22 @@
-# Jake Hwang / jhwang66
+# Jake’s field notes
 
-Static personal portfolio for GitHub Pages. No dependencies or build step.
+Personal academic website for PenguinYoi.github.io.
 
-Publish all site files, including styles.css, script.js, Jake-Hwang-Resume.pdf, and .nojekyll, to the root of the public PenguinYoi.github.io repository. In Settings → Pages choose Deploy from a branch, main, / (root).
+## Edit text
 
-The site uses information supplied in Jake’s résumé. PolyViz is featured as a working MVP. Project descriptions were checked against its public README on November 20, 2026. Update the feature when capabilities or limitations change. The downloadable résumé is an unchanged copy and contains the contact details from the original document.
+Open https://penguinyoi.github.io/admin/ and follow the link to Pages CMS. Sign in with GitHub, choose PenguinYoi/PenguinYoi.github.io on main, then edit About & introduction, Projects, Experience, or Contact & links. Saving makes a Git commit and the Publish academic website workflow deploys the result. No HTML editing is needed. GitHub App installation must be authorized for this repository first. Do not add CMS collaborators if you want sole editing access.
 
-Animations respect reduced-motion settings. Content remains readable with JavaScript disabled.
+The admin landing page is public; edit access is enforced by Pages CMS and GitHub repository permissions. Public repository content and history are public. This version saves directly to main and has no private drafts or unpublished visual preview. Check the live site after the workflow succeeds. History is available in GitHub for recovery.
+
+## Files
+
+- content/*.json: source of truth for editable content.
+- .pages.yml: form definitions (JSON syntax, valid YAML).
+- templates/index.html: site layout.
+- scripts/build.py: HTML-escaping renderer and public artifact builder.
+- styles.css, script.js: presentation and motion.
+- .github/workflows/publish.yml: test, build, publish workflow.
+
+Run `python3 scripts/build.py` to create index.html and _site/. Preview with `python3 -m http.server 8033 --directory _site`. Run `python3 -m unittest discover -s scripts -p 'test_*.py' -v` for content-rendering tests.
+
+GitHub Pages source must be GitHub Actions. Only generated _site/ assets are deployed; content source and schema remain available in the public GitHub repository. No credentials are stored in site files.

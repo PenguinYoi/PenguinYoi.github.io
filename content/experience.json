@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "date": "Summer 2026",
+      "organization": "Pololu Robotics and Electronics",
+      "role": "Engineering Intern",
+      "description": "Developed a motor-driver quality-control testing system combining custom PCBs, hardware fixtures, and C/C++ diagnostic firmware."
+    },
+    {
+      "date": "Spring 2026",
+      "organization": "Lalaith Astor Technical Consulting",
+      "role": "Housing IT Intern",
+      "description": "Developed employee-onboarding automation using Microsoft Power Automate and Power Apps, with weekly technical reviews."
+    },
+    {
+      "date": "2024–2026",
+      "organization": "Learn With Genie",
+      "role": "Digital Resources Manager & Tutor",
+      "description": "Maintained a nonprofit educational website and contributed more than 200 hours of tutoring in mathematics and programming."
+    }
+  ]
+}

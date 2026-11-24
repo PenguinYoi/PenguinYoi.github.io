@@ -1,0 +1,28 @@
+{
+  "brand": "Jake’s field notes",
+  "name": "Jake Hwang",
+  "handle": "jhwang66",
+  "page_title": "Jake’s field notes · jhwang66",
+  "description": "Jake Hwang’s field notes on political data, AI, and robotics. Computer science undergraduate at Johns Hopkins University and creator of PolyViz.",
+  "eyebrow": "Jake Hwang · Computer science at JHU",
+  "headline": "Questions first.",
+  "headline_emphasis": "Code follows.",
+  "introduction": "Exploring political information, machine learning, and the systems we build around them.",
+  "bio": "I’m Jake, an undergraduate at Johns Hopkins. This is a notebook of the things I’m building, the questions behind them, and what I’m figuring out along the way.",
+  "current_note": "Making state legislation easier to explore with PolyViz.",
+  "previous_note": "Motor drivers, PCB fixtures, and firmware at Pololu.",
+  "about_heading": "A little background",
+  "about_intro": "My interests sit between public information and physical systems.",
+  "about_paragraphs": [
+    "At JHU, I’m studying computer science and exploring research questions involving politics, AI, and statistical evaluation. Alongside software projects, I’ve worked on the hardware and firmware used to test motor drivers.",
+    "I’m early in that exploration. These notes are a place to connect the work as it develops."
+  ],
+  "university": "Johns Hopkins University",
+  "degree": "B.S. Computer Science",
+  "graduation": "Expected May 2030",
+  "skills": [
+    "Python · C/C++ · Java",
+    "JavaScript / TypeScript",
+    "React · Linux · Git"
+  ]
+}

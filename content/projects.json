@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": "polyviz",
+      "featured": true,
+      "context": "In progress",
+      "name": "PolyViz",
+      "status": "Working MVP",
+      "topics": [
+        "Political data",
+        "Classification",
+        "Visualization"
+      ],
+      "title": "What are states legislating about?",
+      "lead": "Legislative databases hold a lot of information. Getting a readable picture across states is a different problem.",
+      "description": "I’m building PolyViz, an interactive map of 2025 state legislation organized by topic, geography, and time. It brings state and topic filters, bill search, source links, and monthly playback into one place.",
+      "links": [
+        {
+          "label": "Explore the live map",
+          "url": "https://penguinyoi.github.io/PolyViz/"
+        },
+        {
+          "label": "Code & methodology",
+          "url": "https://github.com/PenguinYoi/PolyViz"
+        }
+      ],
+      "approach": "A Python classification pipeline and a static JavaScript map using versioned JSON. Experiments compare keyword, embedding, and hybrid topic classification.",
+      "question": "How can automated topic labels be useful without hiding uncertainty? The map distinguishes source-checked enactments from legislature-passed bills with unverified signatures.",
+      "limitations": "PolyViz is an exploratory MVP, not a complete legislative inventory or a validated measure of state priorities. Topic proposals and incomplete coverage limit interpretation. Evaluation and cross-state transfer remain areas of investigation; the repository documents the current methods and limitations."
+    },
+    {
+      "id": "inferlens",
+      "featured": false,
+      "context": "JHU Coding Circle",
+      "name": "InferLens",
+      "status": "",
+      "topics": [
+        "Frontend team",
+        "LLM inference"
+      ],
+      "title": "Making inference visible.",
+      "lead": "",
+      "description": "Contributing to a dashboard that turns JSON traces into views of latency, throughput, and queue, prefill, and decode timelines. My role is on the frontend team.",
+      "links": [],
+      "approach": "",
+      "question": "",
+      "limitations": ""
+    },
+    {
+      "id": "oneminuteutopia",
+      "featured": false,
+      "context": "HopHacks 2026",
+      "name": "OneMinuteUtopia",
+      "status": "",
+      "topics": [
+        "Team project",
+        "Civic technology"
+      ],
+      "title": "Reporting a problem in the city.",
+      "lead": "",
+      "description": "Worked on an AI-assisted 311 reporting application using Supabase, geolocation, and interactive mapping to classify infrastructure issues and identify duplicate reports.",
+      "links": [],
+      "approach": "",
+      "question": "",
+      "limitations": ""
+    },
+    {
+      "id": "bill-summarizer",
+      "featured": false,
+      "context": "App Challenge · 2025",
+      "name": "AI Bill Summarizer",
+      "status": "",
+      "topics": [
+        "LegiScan & Llama"
+      ],
+      "title": "A starting point for reading legislation.",
+      "lead": "",
+      "description": "Built a web platform that generates plain-language summaries of state bills using LegiScan and Llama. The project received third place in the Congressional App Challenge.",
+      "links": [],
+      "approach": "",
+      "question": "",
+      "limitations": ""
+    }
+  ]
+}
